@@ -18,7 +18,7 @@ location = geolocator.geocode(address)
 
 lat, lon = location.latitude, location.longitude
 
-url = "https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=+"+str(lat)+"%2C"+str(lon)+"&radius=1500&type=restaurant&keyword=cruise&key=AIzaSyBMhAl3wOF9iEfdawnaFZM8yaH8C08IZ5k"
+url = "https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=+"+str(lat)+"%2C"+str(lon)+"&radius=1500&type=restaurant&keyword=cruise&key=YOUR_KEY_HERE"
 
 payload={}
 headers = {}
